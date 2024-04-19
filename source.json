@@ -1,0 +1,16 @@
+{
+    "nodes": [
+        {
+            "id": "malory",
+            "address": "https://lightning-0.warnet-armada:10009",
+            "macaroon": "/credentials/lnd0-admin.macaroon",
+            "cert": "/credentials/lnd0-tls.cert"
+        },
+        {
+            "id": "helper",
+            "address": "https://lightning-1.warnet-armada:10009",
+            "macaroon": "/credentials/lnd1-admin.macaroon",
+            "cert": "/credentials/lnd1-tls.cert"
+        }
+    ]
+}
